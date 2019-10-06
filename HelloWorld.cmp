@@ -9,6 +9,8 @@
                 <h3 class="slds-text-heading_small slds-m-bottom_xx-small">{!v.property.Name}</h3>
             </a>
             </lightning:layout>
+            <lightning:buttonIcon iconName="utility:edit" class="slds-col_bump-left" iconClass="slds-button__icon_hint" variant="bare" alternativeText="Edit Record" onclick="{!c.editRecord}"/>
+
         </div>
     </div>
 </aura:component>
